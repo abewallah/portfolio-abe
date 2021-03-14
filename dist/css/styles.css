@@ -10010,6 +10010,11 @@ hr.light {
   padding: 8rem 0;
 }
 
+img {
+  width: 100%;
+  height: 80%;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
@@ -10105,11 +10110,14 @@ header.masthead h1 {
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
-  max-width: 1920px;
+  max-width: 1620px;
+  box-sizing: border-box;
 }
 #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box {
   position: relative;
   display: block;
+  width: 400px;
+  height: 300px;
 }
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption {
   display: flex;
@@ -10117,9 +10125,10 @@ header.masthead h1 {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  height: 85%;
   position: absolute;
   bottom: 0;
+  top: 0;
   text-align: center;
   opacity: 0;
   color: #fff;
