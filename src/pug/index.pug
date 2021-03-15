@@ -60,12 +60,14 @@ html(lang='en')
         // About
         section#about.page-section.bg-primary
             .container
+                .imgCont
+                    img(src='assets/img/portfolio/fullsize/selfpic.jpg')
                 .row.justify-content-center
                     .col-lg-8.text-center
                         h2.text-white.mt-0 About Me!
                         hr.divider.light.my-4
                         p.text-white-50.mb-4
-                            | Throughout my life I’ve developed many skills and experiences. I was always intrigued with tech and started my career in hardware troublshooting problems. I was always hardworking and patient. I love tinkering on problems and finding solutions. This lead me to software devolpment and taking a three month intensive course. I have been in many jobs that weren't a great match, but in the end I am happy for all the experiences i've gained. I'm practical and honest, I don’t beat around the bush. I am ready to tackle whats next. 
+                            | Throughout my life I’ve developed many skills and experiences. I was always intrigued with tech and started my career in hardware, troublshooting problems. I was always hardworking and patient. I love tinkering on problems and finding solutions. This lead me to software devolpment and taking a three month intensive course with GA. I have been in many jobs that weren't a great match, but in the end I am happy for all the experiences i've gained. I'm practical and honest, I don’t beat around the bush. I am ready to tackle whats next. 
                         a.btn.btn-light.btn-xl.js-scroll-trigger(href='#services') Next
 
         // Services
@@ -93,7 +95,7 @@ html(lang='en')
                         .mt-5
                             i.fas.fa-4x.fa-globe.text-primary.mb-4
                             h3.h4.mb-2 Database
-                            p.text-muted.mb-0 MongoDB Express Moongoose
+                            p.text-muted.mb-0 MongoDB | PostgresSql
                     .col-lg-3.col-md-6.text-center
                         .mt-5
                             i.fas.fa-4x.fa-globe.text-primary.mb-4
@@ -110,10 +112,8 @@ html(lang='en')
             h2.text-center.mt-0 Projects
             hr.divider.my-4
             .container-fluid.p-0
-                .row.no-gutters
-                    
-                    .col-lg-4.col-sm-6
-                        a(href='https://project-chat-linxs.herokuapp.com') Project Link
+                .row.no-gutters              
+                    .col-lg-4.col-sm-6                    
                         a.portfolio-box(href='assets/img/portfolio/fullsize/img6.jpg')
                             img(src='assets/img/portfolio/thumbnails/img6.jpg', alt='')
                             .portfolio-box-caption
@@ -121,11 +121,8 @@ html(lang='en')
                                     | Category
                                 .project-name
                                     | ChatLinxs 
-                                    
-                                        
-                    .col-lg-4.col-sm-6
-                        a.project-name(href='https://entrynote-project-one.herokuapp.com')
-                            | Project Link
+                                                                          
+                    .col-lg-4.col-sm-6                  
                         a.portfolio-box(href='assets/img/portfolio/fullsize/img7.jpg')
                             img(src='assets/img/portfolio/thumbnails/img7.jpg', alt='')
                             .portfolio-box-caption
@@ -134,10 +131,7 @@ html(lang='en')
                                 .project-name
                                     | EntryNote
                                 
-                    .col-lg-4.col-sm-6
-                        a.project-name(href='https://pages.git.generalassemb.ly/abewallah/tamgachi-first-project/')
-                            | Project Link 
-
+                    .col-lg-4.col-sm-6                    
                         a.portfolio-box(href='assets/img/portfolio/fullsize/img5.jpg')
                             img(src='assets/img/portfolio/thumbnails/img5.jpg', alt='')
                             .portfolio-box-caption
@@ -146,9 +140,7 @@ html(lang='en')
                                 .project-name
                                     | Tamagachi
                                 
-                    .col-lg-4.col-sm-6
-                        a(href='https://project-4-react-side-wayferer.herokuapp.com/')  | Project Link 
-
+                    .col-lg-4.col-sm-6                     
                         a.portfolio-box(href='assets/img/portfolio/fullsize/5.jpg')    
                             img(src='assets/img/portfolio/thumbnails/5.jpg', alt='')
                             .portfolio-box-caption
@@ -157,10 +149,7 @@ html(lang='en')
                                 .project-name
                                     | Wayferer
                                 
-                    .col-lg-4.col-sm-6
-                        a.project-name(href='https://git.generalassemb.ly/abewallah/Finch-collector-lab-views/tree/master/cardcollector')
-                            | Repo Link 
-
+                    .col-lg-4.col-sm-6                     
                         a.portfolio-box(href='assets/img/portfolio/fullsize/img4.jpg')
                             img(src='assets/img/portfolio/thumbnails/img4.jpg', alt='')
                             .portfolio-box-caption
@@ -168,8 +157,22 @@ html(lang='en')
                                     | Category
                                 .project-name
                                     | Card Collector
-                                
+        div.h5.text-black.mt-3.text-center
+            p Projects URL and Repositories 
+        section.page-section.bg-white.text-white
                 
+            .container.text-center-text-black.mb-3 
+                a(href='https://project-chat-linxs.herokuapp.com').mr-4 ChatLinXs Website
+                a(href='https://entrynote-project-one.herokuapp.com').mr-4 EntryNote Website
+                a(href='https://pages.git.generalassemb.ly/abewallah/tamgachi-first-project/').mr-4 Tamagachi Website   
+                a(href='https://project-4-react-side-wayferer.herokuapp.com/').mr-4 Wayferer Website 
+
+            .container.text-center-text-black 
+                a(href='https://project-chat-linxs.herokuapp.com').mr-4 ChatLinXs Repo
+                a(href='https://entrynote-project-one.herokuapp.com').mr-4 EntryNote Repo
+                a(href='https://pages.git.generalassemb.ly/abewallah/tamgachi-first-project/').mr-4 Tamagachi Repo   
+                a(href='https://github.com/abewallah/wayfarer-project-3-collab-frontend').mr-4 Wayferer Repo       
+                a(href='https://git.generalassemb.ly/abewallah/Finch-collector-lab-views/tree/master/cardcollector') Card Collector Repo    
 
         // Call to action
         section.page-section.bg-dark.text-white

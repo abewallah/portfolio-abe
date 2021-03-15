@@ -10015,6 +10015,13 @@ img {
   height: 80%;
 }
 
+.imgCont img {
+  box-sizing: border-box;
+  width: 25%;
+  height: auto;
+  float: left;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
